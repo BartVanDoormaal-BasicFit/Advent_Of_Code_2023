@@ -1,0 +1,1 @@
+print $: += (split //, reverse join("", grep { length != 0  } $_ =~ /\d+/g ) )[-1].(split //, join("", grep { length != 0  } $_ =~ /\d+/g ) )[-1]
