@@ -1,3 +1,8 @@
+//
+// Note: This is really -really- slow (but it does works), I know, loops can be replaced by a calculation, but I don't want to (I'm going to play Factorio now)
+//
+
+
 // Read the file
 const rawdata = require( 'fs' ).readFileSync( './data.txt', { encoding : 'utf-8' } ).split('\n');
 
